@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Work — Pittura Group</title>
+  <meta name="description" content="Selected projects by Pittura Group: fintech platforms, hospitality experiences, e-commerce, SaaS and mobile apps built in Dubai.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%237c3aed'/%3E%3Cstop offset='.5' stop-color='%23ec4899'/%3E%3Cstop offset='1' stop-color='%23f59e0b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='50' cy='50' r='42' fill='url(%23g)'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .filters { display: flex; gap: 0.7rem; flex-wrap: wrap; margin-bottom: 3rem; }
+    .filters .pill { border: 1px solid var(--line); background: var(--surface); color: var(--muted); }
+    .filters .pill.active { background: var(--paint); color: #fff; border-color: transparent; }
+  </style>
+</head>
+<body>
+
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><span class="dot"></span>Pittura</a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="work.html" class="active">Work</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html" class="btn btn-paint nav-cta">Start a project</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><span>Work</span></div>
+      <h1 class="display-lg">Proof, not<br><span class="text-paint">promises.</span></h1>
+      <p class="lead" style="margin-top:1.5rem">A selection of platforms, sites and apps we've painted into existence for clients across the Gulf and beyond.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-glow glow-violet" style="top:5%;left:-15%"></div>
+    <div class="container" style="position:relative;z-index:1">
+      <div class="filters reveal">
+        <button class="pill active" data-filter="all">All</button>
+        <button class="pill" data-filter="web">Web</button>
+        <button class="pill" data-filter="software">Software</button>
+        <button class="pill" data-filter="mobile">Mobile</button>
+      </div>
+      <div class="work-grid">
+        <div class="work-card reveal" data-cat="software">
+          <div class="work-thumb"><div class="thumb-art art-1"></div><span class="thumb-word">Vaulta</span></div>
+          <div class="work-meta">
+            <div><h3>Vaulta Fintech</h3><p>Digital banking platform with cards, transfers and analytics — web dashboard plus iOS &amp; Android apps.</p></div>
+            <span class="work-tag">Fintech</span>
+          </div>
+        </div>
+        <div class="work-card reveal reveal-d1" data-cat="web">
+          <div class="work-thumb"><div class="thumb-art art-2"></div><span class="thumb-word">Dunes</span></div>
+          <div class="work-meta">
+            <div><h3>Dunes Hospitality</h3><p>Luxury resort group site with immersive booking flow — direct bookings up 74% in six months.</p></div>
+            <span class="work-tag">Hospitality</span>
+          </div>
+        </div>
+        <div class="work-card reveal" data-cat="mobile">
+          <div class="work-thumb"><div class="thumb-art art-3"></div><span class="thumb-word">Karama</span></div>
+          <div class="work-meta">
+            <div><h3>Karama Market</h3><p>Second-hand marketplace app with chat, escrow payments and delivery — 500k+ downloads, 4.7★.</p></div>
+            <span class="work-tag">E-Commerce</span>
+          </div>
+        </div>
+        <div class="work-card reveal reveal-d1" data-cat="software">
+          <div class="work-thumb"><div class="thumb-art art-4"></div><span class="thumb-word">Meridian</span></div>
+          <div class="work-meta">
+            <div><h3>Meridian Logistics</h3><p>Fleet management SaaS: live GPS tracking, route optimisation and driver apps for 1,200+ vehicles.</p></div>
+            <span class="work-tag">SaaS</span>
+          </div>
+        </div>
+        <div class="work-card reveal" data-cat="web">
+          <div class="work-thumb"><div class="thumb-art art-5"></div><span class="thumb-word">Nokhba</span></div>
+          <div class="work-meta">
+            <div><h3>Nokhba Properties</h3><p>Bilingual real-estate portal with map search, 3D tours and CRM integration for a leading Dubai developer.</p></div>
+            <span class="work-tag">Real Estate</span>
+          </div>
+        </div>
+        <div class="work-card reveal reveal-d1" data-cat="mobile">
+          <div class="work-thumb"><div class="thumb-art art-6"></div><span class="thumb-word">Sukoon</span></div>
+          <div class="work-meta">
+            <div><h3>Sukoon Wellness</h3><p>Meditation &amp; fitness app with Arabic-first content, offline audio and Apple Health integration.</p></div>
+            <span class="work-tag">Health</span>
+          </div>
+        </div>
+        <div class="work-card reveal" data-cat="software">
+          <div class="work-thumb"><div class="thumb-art art-7"></div><span class="thumb-word">Qafila</span></div>
+          <div class="work-meta">
+            <div><h3>Qafila Trade</h3><p>B2B trade platform digitising customs paperwork and shipment finance for Gulf importers.</p></div>
+            <span class="work-tag">Enterprise</span>
+          </div>
+        </div>
+        <div class="work-card reveal reveal-d1" data-cat="web">
+          <div class="work-thumb"><div class="thumb-art art-8"></div><span class="thumb-word">Ghaf</span></div>
+          <div class="work-meta">
+            <div><h3>Ghaf Collective</h3><p>E-commerce for a sustainable fashion label — headless Shopify, 0.8s loads, 3.2% conversion.</p></div>
+            <span class="work-tag">E-Commerce</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="stats reveal">
+        <div class="stat"><div class="stat-value" data-count="120" data-suffix="+">0</div><div class="stat-label">Projects shipped</div></div>
+        <div class="stat"><div class="stat-value" data-count="12" data-suffix="">0</div><div class="stat-label">Industries served</div></div>
+        <div class="stat"><div class="stat-value" data-count="6" data-suffix="M+">0</div><div class="stat-label">End users reached</div></div>
+        <div class="stat"><div class="stat-value" data-count="14" data-suffix="">0</div><div class="stat-label">Design awards</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="cta-band reveal">
+        <h2 class="display-md">Want to be our next case study?</h2>
+        <p class="lead">Every project here started with one conversation. Let's have yours.</p>
+        <a href="contact.html" class="btn btn-paint">Start the conversation <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo"><span class="dot"></span>Pittura</a>
+          <p>A Dubai-based digital agency crafting websites, software and mobile apps for ambitious brands across the UAE and beyond.</p>
+          <div class="socials">
+            <a href="#" aria-label="Instagram">Ig</a>
+            <a href="#" aria-label="LinkedIn">In</a>
+            <a href="#" aria-label="X">X</a>
+            <a href="#" aria-label="Behance">Be</a>
+          </div>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About us</a></li>
+            <li><a href="work.html">Our work</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="web-development.html">Web Development</a></li>
+            <li><a href="software-development.html">Software Development</a></li>
+            <li><a href="mobile-apps.html">Mobile Apps</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Get in touch</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:hello@pitturagroup.com">hello@pitturagroup.com</a></li>
+            <li><a href="tel:+97144001234">+971 4 400 1234</a></li>
+            <li><a href="contact.html">Dubai Design District (d3),<br>Building 7, Dubai, UAE</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-big">Pittura</div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Pittura Group. All rights reserved.</span>
+        <span>Crafted in Dubai 🇦🇪</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
