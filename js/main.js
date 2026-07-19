@@ -212,10 +212,10 @@
       const name = (form.querySelector("#name") || {}).value || "";
       const email = (form.querySelector("#email") || {}).value || "";
       const service = (form.querySelector("#service") || {}).value || "";
-      const budget = (form.querySelector("#budget") || {}).value || "";
+      const company = (form.querySelector("#company") || {}).value || "";
       const message = (form.querySelector("#message") || {}).value || "";
       const body = encodeURIComponent(
-        `Name: ${name}\nEmail: ${email}\nService: ${service}\nBudget: ${budget}\n\n${message}`
+        `Name: ${name}\nEmail: ${email}\nCompany: ${company}\nService: ${service}\n\n${message}`
       );
       window.location.href = `mailto:hello@pitturagroup.com?subject=${encodeURIComponent(
         "Project inquiry — " + name

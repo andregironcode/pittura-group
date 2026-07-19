@@ -432,7 +432,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 700; line-height
   border-radius: 16px;
   background: linear-gradient(135deg, rgba(124, 58, 237, 0.18), rgba(236, 72, 153, 0.18));
   border: 1px solid rgba(236, 72, 153, 0.25);
-  font-size: 1.5rem;
+  color: var(--amber);
   margin-bottom: 1.6rem;
 }
 .card h3 { font-size: 1.35rem; margin-bottom: 0.9rem; }
@@ -650,10 +650,12 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 700; line-height
   display: grid; place-items: center;
 }
 .feature-visual .big-icon {
-  font-size: clamp(4rem, 8vw, 7rem);
+  color: rgba(255, 255, 255, 0.92);
   filter: drop-shadow(0 10px 40px rgba(236, 72, 153, 0.4));
   position: relative; z-index: 1;
+  display: grid; place-items: center;
 }
+.feature-visual .big-icon svg { width: clamp(64px, 9vw, 100px); height: auto; }
 .checklist { display: grid; gap: 0.9rem; margin-top: 1.6rem; }
 .checklist li {
   display: flex; gap: 0.9rem; align-items: flex-start;
@@ -773,7 +775,12 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 700; line-height
 /* ---------- Values ---------- */
 .value-item { padding: 2rem 0; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: 70px 1fr; gap: 1.6rem; }
 .value-item:first-child { border-top: 1px solid var(--line); }
-.value-item .emoji { font-size: 2rem; }
+.value-item .value-num {
+  font-family: var(--font-display); font-weight: 700;
+  font-size: 1.9rem;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(236, 72, 153, 0.6);
+}
 .value-item h3 { font-size: 1.3rem; margin-bottom: 0.5rem; }
 .value-item p { color: var(--muted); max-width: 640px; }
 

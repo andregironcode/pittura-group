@@ -42,7 +42,6 @@ The following was invented as placeholder copy and **must be replaced with real 
 - **Testimonials** and author names
 - **Team members** other than the founder
 - **Phone number** `+971 4 400 1234` and street address (Dubai Design District, Building 7)
-- **Pricing figures** in the FAQ sections
 - **Social links** (currently `#`)
 
 The contact form opens the visitor's mail client (`mailto:hello@pitturagroup.com`). Swap it for a form backend (Formspree, Basin, or your own API) when ready.
