@@ -777,6 +777,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 700; line-height
 @keyframes spin { to { transform: rotate(360deg); } }
 .team-card h3 { font-size: 1.15rem; }
 .team-card small { color: var(--muted); display: block; margin-top: 0.3rem; }
+.team-card p { color: var(--muted); font-size: 0.95rem; line-height: 1.7; margin: 1rem auto 0; max-width: 34ch; }
 
 /* ---------- Values ---------- */
 .value-item { padding: 2rem 0; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: 70px 1fr; gap: 1.6rem; }
