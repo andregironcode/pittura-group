@@ -217,7 +217,7 @@
       const body = encodeURIComponent(
         `Name: ${name}\nEmail: ${email}\nCompany: ${company}\nService: ${service}\n\n${message}`
       );
-      window.location.href = `mailto:hello@pitturagroup.com?subject=${encodeURIComponent(
+      window.location.href = `mailto:info@pitturagroup.com?subject=${encodeURIComponent(
         "Project inquiry — " + name
       )}&body=${body}`;
       const success = document.querySelector(".form-success");

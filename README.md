@@ -41,7 +41,7 @@ The following was invented as placeholder copy and **must be replaced with real 
 - **Portfolio projects** (Vaulta, Dunes, Karama, Meridian, Nokhba, Sukoon, Qafila, Ghaf) — fictional case studies
 - **Testimonials** and author names
 - **Team members** other than the founder
-- **Phone number** `+971 4 400 1234` and street address (Dubai Design District, Building 7)
+- **Phone number** `+971 58 591 0533` and street address (Dubai Design District, Building 7)
 - **Social links** (currently `#`)
 
-The contact form opens the visitor's mail client (`mailto:hello@pitturagroup.com`). Swap it for a form backend (Formspree, Basin, or your own API) when ready.
+The contact form opens the visitor's mail client (`mailto:info@pitturagroup.com`). Swap it for a form backend (Formspree, Basin, or your own API) when ready.
